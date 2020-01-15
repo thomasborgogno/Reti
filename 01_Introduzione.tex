@@ -84,7 +84,7 @@ attraverso il link di uscita. Sia pertanto $N$ il numero di pacchetti che devono
 \sum\limits_{i=1}^{M-1}\frac{L_i}{R_i}$ questo tempo viene chiamato anche end-to-end delay. 
 \subsubsection{Queuing delays and packet loss}
 Ogni packet switch possiede link multipli attaccati ad esso. Per ogni link ha un output buffer che salva pacchetti che il router sta per inviare lungo il link. Ha un ruolo fondamentale in quanto se il link \`e occupato
-permette al pacchetto di aspettare nel buffer. Per tanto si aggiungono anche i ritardi dovuti a questa operazione di incodamento. Questi ritardi sono variabili e dipendono dal livello di congestione della rete.
+permette al pacchetto di aspettare nel buffer. Pertanto si aggiungono anche i ritardi dovuti a questa operazione di incodamento. Questi ritardi sono variabili e dipendono dal livello di congestione della rete.
 Se anche il buffer \`e completamente pieno avviene una perdita del pacchetto (packet loss) e il pacchetto in arrivo o uno gi\`a incodato viene perso. 
 \subsubsection{Forwarding tables and routing protocols}
 Nell'internet ogni end system possiede un IP address. Quando un source end system vuole mandare un pacchetto alla destinazione viene incluso l'IP del ricevente nell'header del pacchetto. Quando tale 
